@@ -1,6 +1,5 @@
-console.log("JavaScript開始");
-const price = 200;
-const tax = 0.1;
-const total = price * (1 + tax);
+const price = 300;
+const tax = 0.08;
+const total = price + (price * tax);
 
-console.log("税込価格は" + total.toFixed(2) + "円です");
+console.log("税込価格は" + total.toFixed(2) + "円です。" )
