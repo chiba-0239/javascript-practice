@@ -21,3 +21,17 @@ if (total>=1000) {
   console.log("送料500円です。");
 }
 }
+
+for (let i = 1; i<=10; i++){ 
+  if (i % 2 === 0){ 
+    console.log(i);
+   }
+ }
+
+ for (let i = 1; i <= 10; i++) {
+  if (i % 3 === 0) {
+    console.log("★");
+  } else {
+    console.log(i);
+  }
+}
