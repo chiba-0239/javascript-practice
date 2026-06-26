@@ -35,3 +35,63 @@ for (let i = 1; i<=10; i++){
     console.log(i);
   }
 }
+
+// ===============================
+// while文
+// ===============================
+
+let i = 1;
+
+while (i <= 10) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+  i++;
+}
+
+console.log("----------------");
+
+// ===============================
+// switch文
+// ===============================
+
+const score = 2;
+
+switch (score) {
+  case 1:
+    console.log("金メダル");
+    break;
+
+  case 2:
+    console.log("銀メダル");
+    break;
+
+  case 3:
+    console.log("銅メダル");
+    break;
+
+  default:
+    console.log("入賞");
+}
+
+console.log("----------------");
+
+// ===============================
+// 関数（function）
+// ===============================
+
+function hello() {
+  console.log("こんにちは");
+}
+
+hello();
+hello();
+hello();
+
+console.log("----------------");
+
+function bye() {
+  console.log("さようなら");
+}
+
+bye();
