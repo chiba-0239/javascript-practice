@@ -95,3 +95,56 @@ function bye() {
 }
 
 bye();
+// ===============================
+// 関数（引数）
+// ===============================
+
+function hello(name) {
+  console.log("こんにちは " + name);
+}
+
+hello("友太");
+hello("先生");
+hello("ChatGPT");
+
+
+// ===============================
+// 関数（戻り値：return）
+// ===============================
+
+function add(a, b) {
+  return a + b;
+}
+
+const result = add(2, 4);
+
+console.log(result);
+
+
+// ===============================
+// returnは計算結果を返せる
+// ===============================
+
+function multiply(a, b) {
+  return a * b;
+}
+
+const answer = multiply(3, 5);
+
+console.log(answer);
+
+
+// ===============================
+// returnは直接console.logでも使える
+// ===============================
+
+console.log(add(3, 7));
+
+
+// ===============================
+// returnの値はさらに計算にも使える
+// ===============================
+
+const total = add(10, 20) * 2;
+
+console.log(total);
