@@ -149,7 +149,6 @@ const total = add(10, 20) * 2;
 
 console.log(total);
 
-```javascript
 // =========================================
 // Day10 JavaScript学習
 // 関数（function）・引数・戻り値（return）
@@ -237,8 +236,7 @@ console.log(square(6));
 console.log("===== 配列への準備 =====");
 
 // Day11へ続く
-```
-```javascript
+
 // =========================================
 // Day11 JavaScript学習
 // 配列・オブジェクト・filter・map・reduce
@@ -355,4 +353,4 @@ const result = userList
 console.log(result);
 
 // =========================================
-```
+
